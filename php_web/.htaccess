@@ -1,0 +1,5 @@
+### Rewrite(Convert) the url before processing
+RewriteEngine on
+
+## redirecting to => ./index.php?route=1
+RewriteRule ^(.*)$ index.php?route=$1 [QSA]

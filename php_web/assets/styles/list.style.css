@@ -1,0 +1,43 @@
+body {
+    /*background-color: pink;*/
+}
+
+.common {
+    text-decoration: none;
+    /*border: 1px solid red;*/
+    background-color: seagreen;
+    color: white;
+    padding: 8px;
+    border-radius : 4px;
+    transition : all .2s ease-in;
+}
+.common:hover {
+    background-color: white;
+    color : seagreen;
+    cursor : pointer;
+}
+
+ #tbl tr td{
+    border: 1px solid green;
+    padding: 10px;
+} 
+
+#tbl {
+    margin-top: 4px;
+}
+
+table {
+    border: 1px solid pink;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
