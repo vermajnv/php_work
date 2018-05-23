@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/html/php_web/views/college/create.college.form.php</file>
+            <file>file:/var/www/html/php_web/views/courses/list_courses.php</file>
+            <file>file:/var/www/html/php_web/views/courses/update_courses.php</file>
+            <file>file:/var/www/html/php_web/views/courses/create.course.form.php</file>
+            <file>file:/var/www/html/php_web/controllers/college_controller.php</file>
+            <file>file:/var/www/html/php_web/views/college/update.college.form.php</file>
+            <file>file:/var/www/html/php_web/controllers/course_controller.php</file>
+            <file>file:/var/www/html/php_web/views/college/list_colleges.php</file>
+            <file>file:/var/www/html/php_web/views/login_failed.php</file>
+            <file>file:/var/www/html/php_web/views/header.php</file>
+        </group>
+    </open-files>
+</project-private>
