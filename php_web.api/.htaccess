@@ -1,0 +1,8 @@
+### Rewrite(Convert) the url before processing
+RewriteEngine on
+
+### do not redirect if
+#RewriteCond $1 !^(index\.php|assets|images|js|css|uploads|favicon.png)
+## redirecting to => ./index.php?route=1
+#here params = (.*)
+RewriteRule ^api/colleges/?(.*)$ index.php?resourceString=CollegeController?params=$1 [NC]
