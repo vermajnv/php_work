@@ -1,8 +1,11 @@
-### Rewrite(Convert) the url before processing
+# Enabling the rewrite rule
+
 RewriteEngine on
 
-### do not redirect if
-#RewriteCond $1 !^(index\.php|assets|images|js|css|uploads|favicon.png)
-## redirecting to => ./index.php?route=1
-#here params = (.*)
-RewriteRule ^api/colleges/?(.*)$ index.php?resourceString=CollegeController?params=$1 [NC]
+# Do not redirect if
+#RewriteCond $1 !^(index\.php|assets|images|js|css|fevicon.png|upload)
+#Rewrite Rules
+
+RewriteRule ^api/colleges/?(.*)$ index.php?resourseString=CollegeController?params=$1 [NC]
+RewriteRule ^api/courses/?(.*)$ index.php?resourseString=CourseController?params=$1 [NC]
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L] [NC]
