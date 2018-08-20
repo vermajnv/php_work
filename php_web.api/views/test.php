@@ -1,11 +1,13 @@
 <html>
     <head>
-        <title>test view</title>
-	<link rel="stylesheet" href="<?= baseURL("/assets/styles/app.css")?>"/>
+        <title>Test</title>
+        <link href="<?= baseUrl("/assets/css/style.css"); ?>" rel="stylesheet">
     </head>
     <body>
-    <img src="<?= baseURL("/assets/images/taken.png")?>">
-        <h1>Hello test View</h1>
+        <img src="<?= baseUrl("/assets/images/boy.svg"); ?>">
+        <h2>testing Something<?= $name
+?></h2>
     </body>
 </html>
+
 
