@@ -1,11 +1,10 @@
 <div class="header">
     <ul>
-	<li><a class="style" href="<?= baseURL("/") ?>">Home</a><li>
-        <li><a class="style" href="<?= baseURL("/courses") ?>">Courses</a><li>
-        <li><a class="style" href="<?= baseURL("/colleges") ?>">College</a><li>
-	<li><a class="style" href="<?= baseURL("/logout") ?>">Logout</a><li>
-	<li><a class="style" href="<?= baseURL("/public/contacts") ?>">Contacts</a><li>
-	<li><a class="style" href="<?= baseURL("/public/feedback") ?>">Feedback</a><li>
+        <li><a href="<?= baseUrl("/public") ?>">Home</a></li>
+        <li><a href="<?= baseUrl('/college') ?>">Colleges</a></li>
+        <li><a href="<?= baseUrl("/course") ?>">Courses</a></li>
+        <li><a href="<?= baseUrl("/public/feedback") ?>">Feedback</a></li>
+        <li><a href="<?= baseUrl("/public/contact") ?>">Contact</a></li>
+        <li><a href="<?= baseUrl('/logout') ?>">Logout</a></li>
     </ul>
 </div>
-

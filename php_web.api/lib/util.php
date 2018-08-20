@@ -1,13 +1,11 @@
 <?php
 
-function baseURL($url = "") {
-    $parts = explode("/", $_SERVER["REQUEST_URI"]);
-    $path = $parts[1];
-    $contextPath = "/".$path;
-    return $contextPath.$url;
+function baseUrl($url) {
+    $contextPath = "/" . explode("/", $_SERVER["REQUEST_URI"])[1];
+    return $contextPath . $url;
 }
 
-function redirectTo($to) {
-    $url = baseURL($to);
+function redirect($to) {
+    $url = baseUrl($to);
     header("Location: $url", 302);
 }
