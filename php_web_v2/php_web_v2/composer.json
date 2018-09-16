@@ -1,0 +1,13 @@
+{
+    "name": "vermajnv/web",
+    "authors": [
+        {
+            "name": "vermajnv",
+            "email": "nayanrahul.jnv@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": ["models/college", "controllers/college", "controllers/home", "controllers/login", "controllers/logout", "controllers/public"]
+    }
+}
