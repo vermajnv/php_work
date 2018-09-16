@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <coverage xmlns="http://www.netbeans.org/ns/code-coverage/1" enabled="false"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/web/index.php</file>
+            <file>file:/var/www/web/views/feedback.php</file>
+            <file>file:/var/www/web/models/login/loginModel.php</file>
+            <file>file:/var/www/web/routes.php</file>
+            <file>file:/var/www/web/views/contact.php</file>
+            <file>file:/var/www/web/views/header.php</file>
+            <file>file:/var/www/web/views/not_authorized.php</file>
+            <file>file:/var/www/web/controllers/logout/logoutController.php</file>
+            <file>file:/var/www/web/controllers/login/loginController.php</file>
+            <file>file:/var/www/web/controllers/public/publicController.php</file>
+        </group>
+    </open-files>
+</project-private>
